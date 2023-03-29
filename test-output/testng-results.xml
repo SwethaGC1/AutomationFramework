@@ -1,44 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[/read data from excel file specific to test script successfully]]>
+    </line>
+    <line>
+      <![CDATA[call createLeadfromquicksearch pom class successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-29T16:04:22 IST" name="Suite" finished-at="2023-03-29T16:05:22 IST" duration-ms="59866">
+  <suite started-at="2023-03-29T16:52:57 IST" name="Suite" finished-at="2023-03-29T16:53:55 IST" duration-ms="57461">
     <groups>
       <group name="smokeSuite">
-        <method signature="CreateNewOrganizationTest.CreateOrgTest()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" name="CreateOrgTest" class="vtiger.Organization.CreateNewOrganizationTest"/>
+        <method signature="CreateNewOrganizationTest.CreateOrgTest()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" name="CreateOrgTest" class="vtiger.Organization.CreateNewOrganizationTest"/>
       </group> <!-- smokeSuite -->
     </groups>
-    <test started-at="2023-03-29T16:04:22 IST" name="Test" finished-at="2023-03-29T16:05:22 IST" duration-ms="59866">
+    <test started-at="2023-03-29T16:52:57 IST" name="TestRunner2" finished-at="2023-03-29T16:53:47 IST" duration-ms="49808">
       <class name="vtiger.Organization.CreateNewOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:04:22 IST" name="bsConfig" finished-at="2023-03-29T16:04:22 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:52:57 IST" name="bsConfig" finished-at="2023-03-29T16:52:57 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:04:23 IST" name="bcConfig" finished-at="2023-03-29T16:04:38 IST" duration-ms="15218" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:52:58 IST" name="bcConfig" finished-at="2023-03-29T16:53:10 IST" duration-ms="12534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:04:38 IST" name="bmConfig" finished-at="2023-03-29T16:04:43 IST" duration-ms="5573" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:53:10 IST" name="bmConfig" finished-at="2023-03-29T16:53:16 IST" duration-ms="5678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="CreateOrgTest()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:04:43 IST" name="CreateOrgTest" finished-at="2023-03-29T16:05:17 IST" duration-ms="33971" status="PASS">
+        <test-method signature="CreateOrgTest()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:53:16 IST" name="CreateOrgTest" finished-at="2023-03-29T16:53:41 IST" duration-ms="24935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:05:17 IST" name="amConfig" finished-at="2023-03-29T16:05:20 IST" duration-ms="2554" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:53:41 IST" name="amConfig" finished-at="2023-03-29T16:53:44 IST" duration-ms="3388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:05:20 IST" name="acConfig" finished-at="2023-03-29T16:05:22 IST" duration-ms="1811" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:53:44 IST" name="acConfig" finished-at="2023-03-29T16:53:47 IST" duration-ms="2541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@54e1c68b]" started-at="2023-03-29T16:05:23 IST" name="asConfig" finished-at="2023-03-29T16:05:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.Organization.CreateNewOrganizationTest@20140db9]" started-at="2023-03-29T16:53:55 IST" name="asConfig" finished-at="2023-03-29T16:53:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
       </class> <!-- vtiger.Organization.CreateNewOrganizationTest -->
-    </test> <!-- Test -->
+    </test> <!-- TestRunner2 -->
+    <test started-at="2023-03-29T16:52:57 IST" name="TestRunner1" finished-at="2023-03-29T16:53:55 IST" duration-ms="57455">
+      <class name="vtiger.Lead.CreateLeadFromQuickSearchTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.Lead.CreateLeadFromQuickSearchTest@4659191b]" started-at="2023-03-29T16:52:58 IST" name="bcConfig" finished-at="2023-03-29T16:53:12 IST" duration-ms="13727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.Lead.CreateLeadFromQuickSearchTest@4659191b]" started-at="2023-03-29T16:53:12 IST" name="bmConfig" finished-at="2023-03-29T16:53:17 IST" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CreateLeadTest()[pri:0, instance:vtiger.Lead.CreateLeadFromQuickSearchTest@4659191b]" started-at="2023-03-29T16:53:17 IST" name="CreateLeadTest" finished-at="2023-03-29T16:53:51 IST" duration-ms="33493" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[/read data from excel file specific to test script successfully]]>
+            </line>
+            <line>
+              <![CDATA[call createLeadfromquicksearch pom class successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.Lead.CreateLeadFromQuickSearchTest@4659191b]" started-at="2023-03-29T16:53:51 IST" name="amConfig" finished-at="2023-03-29T16:53:53 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.Lead.CreateLeadFromQuickSearchTest@4659191b]" started-at="2023-03-29T16:53:53 IST" name="acConfig" finished-at="2023-03-29T16:53:55 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.Lead.CreateLeadFromQuickSearchTest -->
+    </test> <!-- TestRunner1 -->
   </suite> <!-- Suite -->
 </testng-results>
