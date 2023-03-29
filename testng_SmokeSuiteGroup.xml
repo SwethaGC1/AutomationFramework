@@ -8,7 +8,7 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="vtiger.OrganizationTests.CreateNewOrganizationTest"/>
+      <class name="vtiger.Organization.CreateNewOrganizationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

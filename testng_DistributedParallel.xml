@@ -3,17 +3,17 @@
 <suite thread-count="3" parallel="tests" name="Suite">
   <test thread-count="3" parallel="tests" name="Test_runner1">
     <classes>
-      <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest"/>
+      <class name="vtiger.Contacts.CreateContactWithOrganizationTest"/>
     </classes>
   </test> <!-- Test -->
    <test thread-count="3" parallel="tests" name="Test_runner2">
     <classes>
-      <class name="vtiger.OrganizationTests.CreateNewOrganizationTest"/>
+      <class name="vtiger.Organization.CreateNewOrganizationTest"/>
     </classes>
   </test> <!-- Test -->
    <test thread-count="3" parallel="tests" name="Test_runner3">
     <classes>
-     <class name="vtiger.LeadTests.CreateLeadFromQuickSearchTest"/>
+     <class name="vtiger.Lead.CreateLeadFromQuickSearchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

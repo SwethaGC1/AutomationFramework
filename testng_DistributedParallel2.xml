@@ -4,13 +4,13 @@
   <test thread-count="2" parallel="tests" name="TestRunner1">
     <classes>
       
-      <class name="vtiger.LeadTests.CreateLeadFromQuickSearchTest"/>
+      <class name="vtiger.Lead.CreateLeadFromQuickSearchTest"/>
     </classes>
   </test> <!-- Test -->
   
    <test thread-count="2" parallel="tests" name="TestRunner2">
     <classes>
-      <class name="vtiger.OrganizationTests.CreateNewOrganizationTest"/>
+      <class name="vtiger.Organization.CreateNewOrganizationTest"/>
       
     </classes>
   </test> <!-- Test -->
