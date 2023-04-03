@@ -172,7 +172,7 @@
         <version>3.0.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>TestNGPraactice.xml</suiteXmlFile>
+            <suiteXmlFile>testng_parallel.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
